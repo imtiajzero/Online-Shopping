@@ -1,0 +1,40 @@
+.member_odd{
+	width: 40%;
+	float: left;
+	display: inline-block;
+	height: 170px;
+	background: #E7EAED;
+	margin-left: 50px;
+	padding-top: 18px;
+	padding-left: 18px;
+	box-shadow: 0px 0px 5px black;
+}
+.member_even{
+	width: 40%;
+	display: inline-block;
+	float: left;
+	height: 170px;
+	background: #E7EAED;
+	margin-left: 650px;
+	padding-top: 18px;
+	padding-left: 18px;
+	margin-top: -80px;
+	box-shadow: 0px 0px 5px black;
+}
+.image{
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: -2px -2px 5px black;
+	float: left;
+	border: 1px solid black;
+}
+.image img{
+	height: 150px;
+	width: 150px;
+}
+.description{
+	padding-top: 20px;
+	padding-left: 200px;
+}

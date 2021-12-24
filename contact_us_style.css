@@ -1,0 +1,45 @@
+.wrapper_contact{
+	background: #F5F5F5;
+	width: 91%;
+	margin-left: 43px;
+	padding: 15px;
+	display: inline-block;
+	border-left: 3px solid #CECECE;
+	border-right: 3px solid #CECECE;
+}
+.paragraph pre{
+	text-align: center;
+	font: bold 28px 'Roboto Condensed';
+	color: #776C73;
+}
+.paragraph h2{
+	text-align: center;
+	font: bold 47px/20px 'Roboto Condensed', sans-serif;
+	margin: 20px;
+}
+.form{
+	text-align: center;
+}
+.form label{
+	display: inline-block;
+	width: 100px;
+	padding: 7px;
+	color: whitesmoke;
+	background: black;
+	text-align: left;
+	font-size: 14px;
+	font-weight: bold;
+}
+.inputs{
+	padding: 7px;
+	width: 275px;
+}
+.button{
+	width: 110px;
+	border-radius: 5%;
+	background: #C5462B;
+	color: whitesmoke;
+	padding: 7px;
+	margin-left: 113px;
+	font-weight: bold;
+}

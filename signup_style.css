@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background:#4F575E;
+}
+
+.Signup-form {
+    width: 400px;
+    height: 620px;
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    padding: 50px 35px 35px 35px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.logo {
+    background: url("Nuemorphic.png");
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 5px #5f5f5f,
+    6px 6px 12px #a7aaaf,
+    -10px -6px 12px white;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: .3px;
+}
+
+.sub-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding-top: 10px;
+    letter-spacing: 2px;
+}
+
+.fields {
+    width: 100%;
+    padding: 30px 5px 5px 5px;
+}
+
+.fields input{
+    border: none;
+    outline: none;
+    background: none;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+}
+
+.username, .password, .mail{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 15px #cbced1 , inset -8px -8px 15px white;
+}
+
+.mail{
+    padding-left: 35px;
+}
+
+.fields svg {
+    height: 22px;
+    /* margin: 0 8px -3px 0px; */
+    padding-left: 10px;
+}
+
+.Continue-button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(113, 243, 62);
+    box-shadow: 3px 3px 8px #cbced1,-5px -5px 8px white;
+    color: white;
+    transition: .5s linear;
+}
+
+.Continue-button:hover{
+    background: rgb(14, 139, 56);
+}
+
+.Continue-button:active{
+    background: yellowgreen;
+}
+
+.link a{
+    text-decoration: none;
+    color: rgba(190, 171, 171, 0.979);
+    font-family: sans-serif;
+}

@@ -1,0 +1,100 @@
+.check_out {
+display: inline-block;
+
+width: 100%;
+padding: 45px 50px;
+}
+ h2{
+font-size:22px;
+font-weight:700;
+color: black;
+ 
+padding-bottom: 15px;
+margin-bottom:15px;
+text-transform: uppercase;
+}
+.checkout-inner{
+width:70%;
+float: left;
+border-right: 1px solid #c5c5c5;
+padding-right: 25px;
+}
+.Checkout-form-steps{
+width: 100%;
+padding: 15px;
+display: inline-block;
+}
+
+.Checkout-form-steps > h4 ,h3 {
+font-size:18px;
+font-weight:700;
+border-bottom:1px solid ;
+color:#ff9800;
+padding-bottom: 15px;
+margin-bottom: 25px;
+}
+ .Checkout-form-steps .textfield{
+width:80%;
+height: 30px;
+border-radius: 5px;
+border: 2px solid skyblue;
+margin-bottom:15px;
+padding: 10px;
+font-size: 15px;
+
+}
+.Checkout-form-steps .textfield:focus{
+background-color:lightgray ;
+
+}
+textarea {
+resize: none;
+padding:20px;
+border:3px solid skyblue;
+border-radius:7px;
+margin:15px;
+}
+ .Checkout-form-steps label {
+width:70%;
+float:left;
+border: 2px solid skyblue;
+border-radius: 5px;
+margin-bottom:15px;
+padding: 10px;
+font-size:15px;
+}
+.Submitbtn{
+width:160px;
+height: 50px;
+margin:15px;
+border-radius: 4px;
+font-size:22px;
+float: right;
+color:black;
+border:2px solid skyblue;
+font-weight:600;
+}
+.Submitbtn:focus{
+background-color: lightblue;
+}
+#ClearDiv{
+clear:both;
+}
+.OrderList{
+    width: 35%;
+    border-right: 1px solid #c5c5c5;
+    padding-left: 300px;    
+}
+
+.OrderList p {
+padding: 15px 10px;
+background-color:#00000010;
+font-size:18px;
+border-bottom:1px solid #00000020;
+margin: 10px;
+}
+
+
+.OrderList p span{
+float: right;
+}
